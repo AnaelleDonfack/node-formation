@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+*.gz
 
 # Runtime data
 pids
@@ -25,6 +26,8 @@ build/Release
 # Dependency directory
 # https://docs.npmjs.com/cli/shrinkwrap#caveats
 node_modules
+package-lock.json
+
 
 # Debug log from npm
 npm-debug.log
